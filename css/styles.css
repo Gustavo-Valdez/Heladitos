@@ -133,6 +133,56 @@ h1, h2, p {
     height: 200px;
 }
 
+.heladitos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heladitos h1{
+    display: none;
+}
+
+.heladitos:hover h1 {
+    display: block;
+}
+
+.heladitos h1 {
+    color: white;
+}
+
+.heladitos:hover{
+    background-color: #ff840080;
+    display: flex;
+    transition: all 0.5s ease-out;
+}
+
+
+/*.hoverBox{
+    height: 400px;
+    width: 100%;
+    background-color: rgba(231, 182, 27, 0.8)
+}
+
+.hoverBox:hover{
+    background-color: rgba(231, 182, 27, 0.2);
+    transition: 0.3s ease-in;
+}
+
+.hoverBox h1{
+    text-align: center;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.hoverBox h1::hover{
+    display: flex;
+    transition: 0.5s ease;
+} */
+
 .col-3{
     width: 25%;
     background-size: cover;
@@ -159,28 +209,6 @@ h1, h2, p {
 }
 
 /*hover effect*/
-.hoverBox{
-    height: 400px;
-    width: 100%;
-    background-color: rgba(231, 182, 27, 0.8)
-}
-
-.hoverBox:hover{
-    background-color: rgba(231, 182, 27, 0.2);
-    transition: 0.3s ease-in;
-}
-
-.hoverBox h1{
-    text-align: center;
-    top: 0;
-    left: 0;
-    display: none;
-}
-
-.hoverBox h1::hover{
-    display: flex;
-    transition: 0.5s ease;
-}
 .nosotros_info {
     width: 70%;
     margin-left: 10%;
